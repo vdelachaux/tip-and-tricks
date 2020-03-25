@@ -19,8 +19,8 @@ Many 4D commands use the char `*` as parameter.
 	
 	|COMMANDS     |MODIFIER MEANING|
 	|-------------|----------------|
-	|**Uppercase**<br>**Lowercase**|Indicates to preserve accented characters|
-	|**Position**<br>**Replace string**|Evaluation is based on charater codes (case sensitive)|
+	|**Uppercase**<br>**Lowercase**|Preserve accented characters|
+	|**Position**<br>**Replace string**|Case sensitive|
 	|**GET TEXT KEYWORDS**<br>**GET PICTURE KEYWORDS**|Only different keyword|
 	|**Match regex**|Only searches at position indicated|
 	|**File**<br>**Folder**<br>**Get 4D folder**<br>**Get 4D file**<br>**Structure file**|Return pathname of host database|
@@ -71,6 +71,7 @@ Many 4D commands use the char `*` as parameter.
 	|**Open form window**|Save position and size|
 	|**SET WINDOW RECT**|Do not change window to foreground|
 	|**WINDOW LIST**|With floating windows|
+	|**SQL LOGIN**|Change the target of the SQL code executed within the Begin SQL/End SQL tags|
 	
 
 
