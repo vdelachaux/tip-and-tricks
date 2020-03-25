@@ -10,13 +10,15 @@ Many 4D commands use the char `*` as parameter.
 	In this case the star is the first parameter of the commands.
 
 
-2. In other cases, the star is used as a comportement modifier of the command.  
+2. For some commands to manage the hierarchical list, the * is used instead of the element reference to work with the currently selected element.
+
+3. In other cases, the star is used as a comportement modifier of the command.  
    In this case, the star is a last optional parameter.
 
 	Here is some samples:
 	
-	|             |             |
-	|-------------|-------------|
+	|COMMANDS     |MODIFIER MEANING|
+	|-------------|----------------|
 	|**Uppercase**<br>**Lowercase**|Indicates to preserve accented characters|
 	|**Position**<br>**Replace string**|Evaluation is based on charater codes (case sensitive)|
 	|**GET TEXT KEYWORDS**<br>**GET PICTURE KEYWORDS**|Only different keyword|
@@ -71,7 +73,6 @@ Many 4D commands use the char `*` as parameter.
 	|**WINDOW LIST**|With floating windows|
 	
 
-3. For some commands to manage hierarchical list, * is use instead of element reference to work with the current selected item.
 
 
 
