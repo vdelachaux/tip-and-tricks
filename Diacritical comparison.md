@@ -10,7 +10,7 @@ $equal:=(Length($t1)=Length($t2)) & (Position($t1;$t2;1;*)=1)
 * 2 - Object
 
 ```4d
-$equal:=OB Is defined(New object($1;1);$2)
+$equal:=OB Is defined(New object($t1;1);$t2)
 ```
 * 3 - Collection
 
