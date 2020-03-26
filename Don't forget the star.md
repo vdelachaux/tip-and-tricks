@@ -37,6 +37,7 @@ Many 4D commands use the char `*` as parameter.
 	|**HTTP AUTHENTICATE**|Authentication by proxy|
 	|**HTTP Get**<br>**HTTP Request**|Enables the keep-alive mechanism|
 	|**EXPORT DATA**<br>**IMPORT DATA**|Displays the import dialog box and updates the project|
+	|**SET TABLE TITLES**<br>**SET FIELD TITLES**|Use the custom names in the formula editor|
 	|**SET ASSERT ENABLED**|Applies to current process only|
 	|**JSON Parse**|Adds line position and offset of each property|
 	|**JSON Stringify**<br>**JSON Stringify array**|Pretty formatting|
