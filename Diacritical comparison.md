@@ -5,7 +5,16 @@ No diacritic comparator in 4D language. So here is some solutions
 * 1 - [Legacy]
 
 ```4d
-C_BOOLEAN($equal)C_LONGINT($i)$equal:=(Length($t1)=Length($t2))If ($equal)	  //%R-	For ($i;1;Length($t1);1)		$equal:=$equal & (Character code($t1[[$i]])=Character code($t2[[$i]]))	End for 	  //%R+End if 
+C_BOOLEAN($equal)
+C_LONGINT($i)
+$equal:=(Length($t1)=Length($t2))
+If ($equal)
+	  //%R-
+	For ($i;1;Length($t1);1)
+		$equal:=$equal & (Character code($t1[[$i]])=Character code($t2[[$i]]))
+	End for 
+	  //%R+
+End if 
 ```
 * 2 - [v11+]
 
@@ -31,7 +40,7 @@ $equal:=New collection($t1).equal(New collection($t2);ck diacritical)
 
 # Benchmarking
 
-In compiled mode for 1M comparaisons <a href="Methods/Comparison.4dm">See the method</a>
+In compiled mode for 1M comparaisons <a href="/Methods/comparison.4dm">See the method</a>
 
 |   |             |  ms |   |
 |---|-------------|-----|---|
