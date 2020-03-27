@@ -31,7 +31,7 @@ $equal:=New collection($t1).equal(New collection($t2);ck diacritical)
 
 # Benchmarking
 
-In compiled mode for 1M comparaisons [See the method](Methods/Comparison.4dm)
+In compiled mode for 1M comparaisons <a href="Methods/Comparison.4dm">See the method</a>
 
 |   |             |  ms |   |
 |---|-------------|-----|---|
