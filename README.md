@@ -1,6 +1,4 @@
-# Tip-and-tricks
-
-Some solutions to common problems
+# Some solutions to common problems:
 
 * <a href="https://github.com/vdelachaux/tip-and-tricks/blob/master/docs/Don't%20forget%20the%20star.md">Don't forget the star</a>
 * <a href="https://github.com/vdelachaux/tip-and-tricks/blob/master/docs/Diacritical%20comparison.md">Diacritical comparison</a>
