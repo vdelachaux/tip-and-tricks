@@ -2,8 +2,9 @@
 
 ### Solution 1 - manually
 
-Open the Maintenance and Security Center (MSC) and on the Information page, click on the "4D Folder" item then select the "4D" item to open the folder.
+Open the Maintenance and Security Center (MSC) and on the Information page, click on the "4D Folder" item then select the "Show on disk" or "4D" item to open the folder.
 
+<img src="msc.png"/>
 
 ### Solution 2 - Code
 
