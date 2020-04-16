@@ -38,4 +38,4 @@ SHOW ON DISK (Get 4D folder (Active 4D Folder))
 
 The <a href="https://github.com/vdelachaux/4DPop-Bookmarks">4DPop Bookmarks</a> development tool allow to directly open the used folders by the current database or the 4D Application: 4D Folder, Macros Folder, …
 
-                  <img src="active4DFolder.png" width="400"/>
+                  <img src="Active4DFolder.png" width="400"/>
