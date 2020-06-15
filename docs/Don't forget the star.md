@@ -17,8 +17,8 @@ Many 4D commands use the char `*` as parameter.
 
 	Here is some samples:
 	
-	|COMMANDS     |MODIFIER MEANING|
-	|-------------|----------------|
+	|COMMANDS     |MODIFIER MEANING|Version|
+	|-------------|----------------|-------|
 	|**Uppercase**<br>**Lowercase**|Preserve accented characters|
 	|**Position**<br>**Replace string**|Case sensitive|
 	|**GET TEXT KEYWORDS**<br>**GET PICTURE KEYWORDS**|Only different keyword|
@@ -73,6 +73,8 @@ Many 4D commands use the char `*` as parameter.
 	|**SET WINDOW RECT**|Do not change window to foreground|
 	|**WINDOW LIST**|With floating windows|
 	|**SQL LOGIN**|Change the target of the SQL code executed within the Begin SQL/End SQL tags|
+	|**BASE64 ENCODE**<br>**BASE64 DECODE**| Use the Base64URL encoding instead of Base64|18R4+|
+	|**Generate digest**|Return the digest encoded in Base64URL form instead of hexadecimal|18R4+|
 	
 
 
