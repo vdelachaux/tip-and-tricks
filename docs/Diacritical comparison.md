@@ -38,14 +38,21 @@ $equal:=OB Is defined(New object($t1;1);$t2)
 $equal:=New collection($t1).equal(New collection($t2);ck diacritical)
 ```
 
+* 6 - [v18R6+]
+
+```4d
+$equal:=Compare strings($t1; $t2; sk char codes)=0
+```
+
 # Benchmarking
 
-In compiled mode for 1M comparaisons <a href="/Methods/comparison.4dm">See the method</a>
+In compiled mode (mac OS: 12.1 - Processor: 2,6 GHz 6-Core Intel Core i7) for 1M comparaisons <a href="/Methods/comparison.4dm">See the method</a>
 
 |   |             |  ms |   |
 |---|-------------|-----|---|
-| 1 |For (%R-)    |~~1865~~|**<-- Optimization 18R3 = 28 ms**|
-| 2 |Position(\*) |**113**  ||
-| 3 |Regex        |442  ||
-| 4 |Object       |850  ||
-| 5 |Collection   |1235 ||
+| 1 |For (%R-)    |~~1865~~|**<-- Optimization 18R3 = 31 ms**|
+| 2 |Position(\*) |124  ||
+| 3 |Regex        |514  ||
+| 4 |Object       |1128  ||
+| 5 |Collection   |1670 ||
+| 6 |Compare string |100||
