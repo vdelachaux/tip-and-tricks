@@ -53,7 +53,7 @@ End if
 
 ## Demo
 
-The <a href="../testCursors/Project/testCursors.4DProject">testCursors project</a> allows you to explore the system cursors available on your platform.
+The <a href="../testCursors/Project/">testCursors project</a> allows you to explore the system cursors available on your platform.
 
 
 ## The cursors
