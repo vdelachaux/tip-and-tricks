@@ -1,29 +1,3 @@
-
-[256]: cursors/ibeam@2x.png
-[260]: cursors/beachball@2x.png
-[355]: cursors/pointer@2x.png
-[552]: cursors/cross@2x.png
-[559]: cursors/zoomout@2x.png
-[560]: cursors/zoomin@2x.png
-[9000]: cursors/pointinghand@2x.png
-[9001]: cursors/move@2x.png
-[9003]: cursors/resizeeastwest@2x.png
-[9004]: cursors/resizenorthsouth@2x.png
-[9005]: cursors/resizenorthwestsoutheast@2x.png
-[9006]: cursors/resizenortheastsouthwest@2x.png
-[9009]: cursors/resizeupdown@2x.png
-[9010]: cursors/verticalSplit@2x.png
-[9011]: cursors/horizontalSplit@2x.png
-[9013]: cursors/openhand@2x.png
-[9014]: cursors/closedhand@2x.png
-[9015]: cursors/contextualmenu@2x.png
-[9016]: cursors/copy@2x.png
-[9017]: cursors/makealias@2x.png
-[9018]: cursors/help@2x.png
-[9019]: cursors/notallowed@2x.png
-[9020]: cursors/pointerToRight@2x.png
-[9021]: cursors/resizeleftright@2x.png
-
 # Don't forget the cursor
 
 The cursor displayed on the screen gives contextual information to the user about a possible or current action. This is why this interface element should not be overlooked. 
@@ -85,3 +59,29 @@ The following table shows and describes the avalaible system cursors and indicat
 |![Alt Image Text][9009]| The resize-up-and-down cursor | 9009  | resizeUpDownCursor |
 |![Alt Image Text][9010]| The vertical split cursor | 9010  | verticalSplitCursor |
 |![Alt Image Text][9011]| The horizontal split cursor | 9011  | horizontalSplitCursor |
+
+[256]: cursors/ibeam@2x.png
+[260]: cursors/beachball@2x.png
+[355]: cursors/pointer@2x.png
+[552]: cursors/cross@2x.png
+[559]: cursors/zoomout@2x.png
+[560]: cursors/zoomin@2x.png
+[9000]: cursors/pointinghand@2x.png
+[9001]: cursors/move@2x.png
+[9003]: cursors/resizeeastwest@2x.png
+[9004]: cursors/resizenorthsouth@2x.png
+[9005]: cursors/resizenorthwestsoutheast@2x.png
+[9006]: cursors/resizenortheastsouthwest@2x.png
+[9009]: cursors/resizeupdown@2x.png
+[9010]: cursors/verticalSplit@2x.png
+[9011]: cursors/horizontalSplit@2x.png
+[9013]: cursors/openhand@2x.png
+[9014]: cursors/closedhand@2x.png
+[9015]: cursors/contextualmenu@2x.png
+[9016]: cursors/copy@2x.png
+[9017]: cursors/makealias@2x.png
+[9018]: cursors/help@2x.png
+[9019]: cursors/notallowed@2x.png
+[9020]: cursors/pointerToRight@2x.png
+[9021]: cursors/resizeleftright@2x.png
+
