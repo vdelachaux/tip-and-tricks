@@ -32,7 +32,7 @@ You might use this technique to provide visual feedback about what actions the u
 
 > 📌 As the effect of this command can be cancelled at any time by a system request for a display update, it is recommended to use it during the On mouse move event. And conversely, if there is no request for a redraw, the cursor may not be reset. 
 > 
-> So, the best practice is to set the cursor at the _On Mouse Enter_ and _On Mouse Move_ events, and to remember to restore the standard mouse cursor at the _On Mouse Leave_ event. Like this for example:
+> So, the best practice is to set the cursor at the _On Mouse Enter_ and _On Mouse Move events_, and to remember to restore the standard mouse cursor at the _On Mouse Leave event_. Like this for example:
 
 ```4D
 $e:=FORM Event
@@ -49,16 +49,11 @@ Else
 End if 
 ```
 
+The following table shows and describes the avalaible system cursors and indicates the id to pass in the cursor parameter.
+
 **Note**: Cursor availability and appearance may vary depending on the operating system.
 
-## Demo
-
-The <a href="../testCursors/Project/testCursors.4DProject">testCursors project</a> allows you to explore the system cursors available on your platform.
-
-
 ## The cursors
-
-The following table shows and describes the avalaible system cursors and indicates the id to pass in the cursor parameter.
 
 |      macOS           |       | 4D ID |  Name  |
 |:--------------------:|:------|:-----:|:------|
