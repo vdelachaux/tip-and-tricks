@@ -28,14 +28,25 @@
 
 The cursor displayed on the screen gives contextual information to the user about a possible or current action. This is why this interface element should not be overlooked. 
 
-You might use this technique to provide visual feedback about what actions the user can take with the mouse. For example, you might display one of the resize cursors whenever the mouse moves over a portion of your view that acts as a custom resizing handle. To set this up, you'll use the command <a href="https://doc.4d.com/4Dv19/4D/19.1/SET-CURSOR.301-5652895.en.html" >SET CURSOR</a> that allow to change the displayed cursor.
+You might use this technique to provide visual feedback about what actions the user can take with the mouse. For example, you might display one of the resize cursors whenever the mouse moves over a portion of your view that acts as a custom resizing handle. To set this up, you'll use the command <a href="https://doc.4d.com/4Dv19/4D/19.1/SET-CURSOR.301-5652895.en.html" target="_blank">SET CURSOR</a> that allow to change the displayed cursor.
 
 > 📌 As the effect of this command can be cancelled at any time by a system request for a display update, it is recommended to use it during the On mouse move event. And conversely, if there is no request for a redraw, the cursor may not be reset. 
 > 
 > So, the best practice is to set the cursor at the _On Mouse Enter_ and _On Mouse Move events_, and to remember to restore the standard mouse cursor at the _On Mouse Leave event_. Like this for example:
 
 ```4D
-$e:=FORM EventIf ($e.code=On Mouse Enter)\	 | ($e.code=On Mouse Move)		SET CURSOR($id)	Else 		SET CURSOR	End if 
+$e:=FORM Event
+
+If ($e.code=On Mouse Enter)\
+	 | ($e.code=On Mouse Move)
+	
+	SET CURSOR($id)
+	
+Else 
+	
+	SET CURSOR
+	
+End if 
 ```
 
 The following table shows and describes the avalaible system cursors and indicates the id to pass in the cursor parameter.
