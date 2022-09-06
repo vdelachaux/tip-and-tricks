@@ -1,4 +1,4 @@
-# Accessing form definitions in a compiled and built application
+# How to Access form definitions in a compiled and built application
 
 As you know, the build phase of an application generates a `.4Z` file in which the source code of methods and classes is removed. But the form definition is still present.
 
