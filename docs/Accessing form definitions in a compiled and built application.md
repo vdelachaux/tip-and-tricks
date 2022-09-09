@@ -12,23 +12,8 @@ Some developments require loading the definition of a form to modify it on the f
 The thing to know is that the **File** and **Folder** commands are able to operate on a `.4DZ` file if it is open in memory.    
 And this is necessarily the case since the application is loaded even if the `.4DZ` file is protected.
 
-So the only problem to solve is the access path which is different in interpreted mode and in compiled mode. 
-
-* In interpreted mode, you access the "Forms" folder with : 
+So the access path for the `Form1` definition is: 
 
 ```4d
-Folder("/PROJECT/Project/Sources/Forms")
+	$file:=File(“/SOURCES/Forms/Form1/form.4DForm”)
 ```
-* In compiled and built mode with : 
-
-```4d
-Folder("/PROJECT/Sources/Forms")
-```
-> Note that the "Sources" folder is in the root and not in a "Project" folder.
-
-So to have a coherent behavior in interpreted/compiled mode you have to do for example:
-
-```4d
-If (Is compiled mode)		$file:=File("/PROJECT/Sources/Forms/Form1/form.4DForm")	Else 		$file:=File("/PROJECT/Project/Sources/Forms/Form1/form.4DForm")	End if 
-```
-
