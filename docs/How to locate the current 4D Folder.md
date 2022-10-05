@@ -10,6 +10,7 @@ The 4D environment uses a specific folder to store the following information:
 * Macros v2 folder (macro commands of Method editor)
 * Favorites v1x folder, for example Favorites v13 (pathnames for local and remote databases that have been opened)
 * Logs folder for maintenance logs and when the data is read-only
+* The server-side cache for plugins and components
 
 The active 4D folder is created by default at the following location:
 
