@@ -17,3 +17,7 @@ If (OK=1)
 	
 End if 
 ```
+
+## 19R5+
+
+Take a look at [the use of SystemWorkers](https://github.com/vdelachaux/player) with ***afplay*** to manage a playlist
