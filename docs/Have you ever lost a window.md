@@ -2,7 +2,7 @@
 
 Sometimes, when changing the screen environment, it happens that a window is opened off screen. 
 
-<a href="/Methods/screens.4dm">This method</a> which uses the class [svg](https://github.com/vdelachaux/SVG-with-Classes) should help you to find it.
+<a href="https://github.com/vdelachaux/tip-and-tricks/blob/master/Methods/Screens.4dm">This method</a> which uses the class [svg](https://github.com/vdelachaux/SVG-with-Classes) should help you to find it.
 
 
 You will get something like this:
