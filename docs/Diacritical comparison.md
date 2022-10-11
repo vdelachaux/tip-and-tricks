@@ -46,7 +46,7 @@ $equal:=Compare strings($t1; $t2; sk char codes)=0
 
 # Benchmarking
 
-In compiled mode (mac OS: 12.1 - Processor: 2,6 GHz 6-Core Intel Core i7) for 1M comparaisons <a href="/Methods/comparison.4dm">See the method</a>
+In compiled mode (mac OS: 12.1 - Processor: 2,6 GHz 6-Core Intel Core i7) for 1M comparaisons <a href="https://github.com/vdelachaux/tip-and-tricks/blob/master/Methods/Comparison.4dm">See the method</a>
 
 |   |             |  ms |   |
 |---|-------------|-----|---|
