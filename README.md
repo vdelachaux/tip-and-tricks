@@ -8,5 +8,5 @@
 * <a href="https://github.com/vdelachaux/tip-and-tricks/blob/master/docs/Accessing%20form%20definitions%20in%20a%20compiled%20and%20built%20application.md">How to access form definitions in a compiled and built application?</a>
 * <a href="https://github.com/vdelachaux/tip-and-tricks/blob/master/docs/How%20to%20move%20a%20window%20by%20clicking%20in%20its%20content.md">How to move a window by clicking in its content?</a>
 * <a href="https://github.com/vdelachaux/tip-and-tricks/blob/master/docs/How%20to%20synchronous%20play%20a %20sound%20file%20on%20macOS.md">How to synchronous play a  sound file on macOS?</a>
-* <a href="https://github.com/vdelachaux/tip-and-tricks/blob/master/docs/Have%20you%20ever%20lost%20a%20window?.md">Have you ever lost a window?</a>
+* <a href="https://github.com/vdelachaux/tip-and-tricks/blob/master/docs/Have%20you%20ever%20lost%20a%20window.md">Have you ever lost a window?</a>
 
