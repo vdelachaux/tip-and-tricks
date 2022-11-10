@@ -9,4 +9,7 @@
 * <a href="https://github.com/vdelachaux/tip-and-tricks/blob/master/docs/How%20to%20move%20a%20window%20by%20clicking%20in%20its%20content.md">How to move a window by clicking in its content?</a>
 * <a href="https://github.com/vdelachaux/tip-and-tricks/blob/master/docs/How%20to%20synchronous%20play%20a %20sound%20file%20on%20macOS.md">How to synchronous play a  sound file on macOS?</a>
 * <a href="https://github.com/vdelachaux/tip-and-tricks/blob/master/docs/Have%20you%20ever%20lost%20a%20window.md">Have you ever lost a window?</a>
+* <a href="https://github.com/vdelachaux/tip-and-tricks/blob/master/docs/How%20to%20test%20if%20an%20image%20uses%20transparency.md">How to test if an image uses transparency?</a>
+
+
 
