@@ -34,6 +34,10 @@ This code, to be put in a utility method that you can execute whenever you want,
 ```4d
 SHOW ON DISK (Get 4D folder (Active 4D Folder))
 ```
+### • v17R5+
+```4d
+SHOW ON DISK (Folder(fk user preferences folder).platformPath)
+```
 
 ## Solution 3 - Use 4DPop Bookmarks
 
